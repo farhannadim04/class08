@@ -342,3 +342,90 @@ width: 50%;
     height: 230px;
     padding-top: 280px;
 }
+
+/* ......content................ */
+#content{
+    padding: 125px 158px;
+    display: flex;
+}
+.content_left{
+    position: relative;
+}
+.content_left img{
+    position: absolute;
+    width: 650px;
+    height: 600px;
+}
+.con_overly{
+    position: absolute;
+    height: 600px;
+    width: 650px;
+    background: rgba(28, 30, 83, 0.50);
+}
+.con_overly h3{
+    position: absolute;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    padding-left: 90px;
+    padding-top: 90px;
+}
+.con_overly p{
+    position: absolute;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 90px;
+    padding-top: 340px;
+}
+
+.con_right_main{
+    background: #1C1E53;
+    width: 624px;
+    height: 600px;
+    margin-left: 650px;
+}
+.con_value h3{
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 90px;
+    padding-left: 90px;
+
+}
+.con_value p{
+    color: #F4F6FC;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 90px;
+    padding-top: 5px; 
+    padding-right: 80px;
+}
+.con_value form{
+    padding-left: 90px;
+    padding-top: 20px;
+}
+.con_value form input{
+    width: 250px;
+    background: #1C1E53 ;
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    color: #F4F6FC;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    line-height: 30px;
+}
+.con_value a{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-left: 100px;
+}
